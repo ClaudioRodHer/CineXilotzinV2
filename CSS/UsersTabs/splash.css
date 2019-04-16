@@ -1,0 +1,35 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background:url("../../Resources/UsersTabs/splash/cineF.png");
+    background-size: cover;
+    color: white;   
+}
+/*--------------------inicio de la maqutacion de la pagina--------------------------------------*/
+
+/*inicia la programacion del contenido del header*/
+/*fin de los estilos del header*/
+
+/*inicio de la barra de navegacion*/
+/*fin de la navegacion*/
+
+/*inicio del estilo del contenido central*/
+section#progress{
+    margin-top: 450px;
+    margin-left: 200px;
+    width: 900px;
+    height: 30px;
+    position: relative;
+   /* background-color: blueviolet;*/
+}
+.progress{
+    height: 20px;
+    border-radius: 15px;
+}
+/*fin del contenido central*/
+
+/*inicio del footer*/
+/*fin del footer*/
+/*--------------------Fin de la maqutacion de la pagina--------------------------------------*/
