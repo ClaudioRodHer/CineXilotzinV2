@@ -651,8 +651,10 @@
         <?php
             }
           }else {
-             echo "<center><H1>UPS¡¡¡ Veo que tienes problemas para entrar aqui</H1></center>";
-             echo "<center><H2>Debes iniciar sesion para iniciar<H2></center>";
+             echo "<hr><hr><hr><hr><hr><hr><hr><hr>
+             <hr><hr><hr><hr><hr><hr><hr><hr>
+             <hr><hr><hr><center><H1>UPS¡¡¡ Veo que tienes problemas para entrar aqui</H1></center>";
+             echo "<center><H3>Debes iniciar sesion para iniciar<H3></center>";
              echo "<center><a href='../Login/Login.php'>Da CLIK aqui para iniciar sesion</a></center>";
          }
         ?>                                  
