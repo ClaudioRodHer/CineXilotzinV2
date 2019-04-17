@@ -21,13 +21,13 @@
             <div class="contenedor-form">
                 <div class="formulario">
                     <h2>Login</h2>
-                    <form>
+                    <form action="../Functions/Login/ValidarLogin.php" method="Post">
                         <div class="form-group">
                             <label for="exampleInputEmail1">Correo Electronico</label>
                             <input
                                 type="email"
                                 class="form-control"
-                                id="exampleInputEmail1"
+                                name="txtusuario"
                                 aria-describedby="emailHelp"
                                 placeholder="Ingresa un email">
                         </div>
@@ -36,7 +36,7 @@
                             <input
                                 type="password"
                                 class="form-control"
-                                id="exampleInputPassword1"
+                                name="txtcontrasenia"
                                 placeholder="Contraseña">
                         </div>
                         <div class="form-group form-check">
@@ -44,11 +44,12 @@
                             <label class="form-check-label" for="exampleCheck1">Recordarme</label>
                         </div>
                         <button type="submit" class="btn btn-primary">Entrar</button>
+                    </form>
+                    <form action="">
                         <hr>
                         <hr>
                         <button type="submit" class="btn btn-primary">Recordar Contraseña</button>
-
-                      </form>
+                    </form>
                 </div>
             </div>
 
