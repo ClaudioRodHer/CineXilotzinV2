@@ -106,6 +106,196 @@
     </a>
   </div>
 </div>
+<!-- Aqui comienza el diseño para la parte web -->
+<h1>Dulceria</h1>
+        <div id="section">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="Resources/alimentosdulces.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Edificio 1</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the bulk of the card's content.</p>
+                                <!-- Button trigger modal -->
+                                <button
+                                    type="button"
+                                    class="btn btn-primary"
+                                    data-toggle="modal"
+                                    data-target="#exampleModalCenter">
+                                    -Ver-
+                                </button>
+
+                                <!-- Modal -->
+                                <div
+                                    class="modal fade"
+                                    id="exampleModalCenter"
+                                    tabindex="-1"
+                                    role="dialog"
+                                    aria-labelledby="exampleModalCenterTitle"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalCenterTitle">Dulces</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img src="img/TEE.png" alt="">
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="Resources/Mesacine.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Snack</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the bulk of the card's content.</p>
+                                <!-- Button trigger modal -->
+                                <button
+                                    type="button"
+                                    class="btn btn-primary"
+                                    data-toggle="modal"
+                                    data-target="#exampleModalCenter2">
+                                    -Ver-
+                                </button>
+
+                                <!-- Modal -->
+                                <div
+                                    class="modal fade"
+                                    id="exampleModalCenter2"
+                                    tabindex="-1"
+                                    role="dialog"
+                                    aria-labelledby="exampleModalCenterTitle"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalCenterTitle">Snack</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img src="img/t4.jpg" alt="">
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="Resources/comida.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Comida</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the bulk of the card's content.</p>
+                                <!-- Button trigger modal -->
+                                <button
+                                    type="button"
+                                    class="btn btn-primary"
+                                    data-toggle="modal"
+                                    data-target="#exampleModalCenter3">
+                                    -Ver-
+                                </button>
+
+                                <!-- Modal -->
+                                <div
+                                    class="modal fade"
+                                    id="exampleModalCenter3"
+                                    tabindex="-1"
+                                    role="dialog"
+                                    aria-labelledby="exampleModalCenterTitle"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalCenterTitle">Comida</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img src="Resources/comida.png" alt="">
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="Resources/bebidas.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Edificio 4</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the bulk of the card's content.</p>
+                                <!-- Button trigger modal -->
+                                <button
+                                    type="button"
+                                    class="btn btn-primary"
+                                    data-toggle="modal"
+                                    data-target="#exampleModalCenter4">
+                                    -Ver-
+                                </button>
+
+                                <!-- Modal -->
+                                <div
+                                    class="modal fade"
+                                    id="exampleModalCenter4"
+                                    tabindex="-1"
+                                    role="dialog"
+                                    aria-labelledby="exampleModalCenterTitle"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalCenterTitle">Edificio 4</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img src="img/te3.jpg" alt="">
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
