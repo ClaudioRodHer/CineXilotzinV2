@@ -34,7 +34,6 @@
                   <li class="nav-item">
                       <a class="nav-link" href="Dulceria.php">Dulceria</a>
                   </li>
-                  <i class="fas fa-long-arrow-alt-down    "></i>
                   <!-- <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="Dulceria.php" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dulceria</a>
                       <div class="dropdown-menu" aria-labelledby="dropdownId">
