@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Bootstrap CSS LOCAL -->
     <link rel="stylesheet" href="../CSS/bootstrap.min.css">
-
+    <link rel="stylesheet" href="../CSS/css/carrucelDulceria.css">
     <link rel="stylesheet" href="../CSS/UsersTabs/HomeCSS.css">
 </head>
   <body>
@@ -66,6 +66,8 @@
       </nav>
 
       <!-- Aqui comienza la creacion del carrucel -->
+      <div class="container-fluid">
+          
       <div class="bd-example">
   <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -106,6 +108,7 @@
     </a>
   </div>
 </div>
+</div>
 <!-- Aqui comienza el diseño para la parte web -->
 <h1>Dulceria</h1>
         <div id="section">
@@ -116,16 +119,16 @@
                         <div class="card" style="width: 18rem;">
                             <img src="Resources/alimentosdulces.png" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title">Edificio 1</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make
-                                    up the bulk of the card's content.</p>
+                                <h5 class="card-title">Dulceria</h5>
+                                <p class="card-text">A nuetros clientes tambien les ofrecemos variedades en dulceria, par que haci ellos puedan disfrutar 
+                                    de su pelicula con un buen sabor de boca, pulsa aqui para saber mas.</p>
                                 <!-- Button trigger modal -->
                                 <button
                                     type="button"
                                     class="btn btn-primary"
                                     data-toggle="modal"
                                     data-target="#exampleModalCenter">
-                                    -Ver-
+                                    Ver mas..
                                 </button>
 
                                 <!-- Modal -->
@@ -145,7 +148,20 @@
                                                 </button>
                                             </div>
                                             <div class="modal-body">
-                                                <img src="img/TEE.png" alt="">
+                                               <!-- CARRUCEL -->
+                                               <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="Resources/dulce1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="Resources/dulce2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="Resources/dulce3.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+</div>
                                             </div>
                                             <div class="modal-footer">
                                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
@@ -162,15 +178,14 @@
                             <img src="Resources/Mesacine.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Snack</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make
-                                    up the bulk of the card's content.</p>
+                                <p class="card-text">Pequeña cantidad de alimento, como frutos secos, papas fritas o galletas saladas, que se toma como acompañamiento de una bebida.</p>
                                 <!-- Button trigger modal -->
                                 <button
                                     type="button"
                                     class="btn btn-primary"
                                     data-toggle="modal"
                                     data-target="#exampleModalCenter2">
-                                    -Ver-
+                                    Ver mas..
                                 </button>
 
                                 <!-- Modal -->
@@ -190,7 +205,19 @@
                                                 </button>
                                             </div>
                                             <div class="modal-body">
-                                                <img src="img/t4.jpg" alt="">
+                                            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="Resources/snack1.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="Resources/snack2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="Resources/snack3.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+</div>
                                             </div>
                                             <div class="modal-footer">
                                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
@@ -207,15 +234,15 @@
                             <img src="Resources/comida.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Comida</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make
-                                    up the bulk of the card's content.</p>
+                                <p class="card-text">Ademas de un buen servicio y estrenos inolvidables, nosotros en las instalaciones 
+                                    ofrecemos un amplia variadad de comida hacia nuetros clientes, puede ver mas pulsando el boton de abajo.</p>
                                 <!-- Button trigger modal -->
                                 <button
                                     type="button"
                                     class="btn btn-primary"
                                     data-toggle="modal"
                                     data-target="#exampleModalCenter3">
-                                    -Ver-
+                                    Ver mas ..
                                 </button>
 
                                 <!-- Modal -->
@@ -235,7 +262,19 @@
                                                 </button>
                                             </div>
                                             <div class="modal-body">
-                                                <img src="Resources/comida.png" alt="">
+                                            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="Resources/comidaprincipal.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="Resources/comida1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="Resources/comidas1.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+</div>
                                             </div>
                                             <div class="modal-footer">
                                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
@@ -251,16 +290,16 @@
                         <div class="card" style="width: 18rem;">
                             <img src="Resources/bebidas.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title">Edificio 4</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make
-                                    up the bulk of the card's content.</p>
+                                <h5 class="card-title">Bebidas</h5>
+                                <p class="card-text">De igual manera ofrecemos y contamos con una extensa variedad de bebidas para 
+                                    disgustar de tus peliculas.</p>
                                 <!-- Button trigger modal -->
                                 <button
                                     type="button"
                                     class="btn btn-primary"
                                     data-toggle="modal"
                                     data-target="#exampleModalCenter4">
-                                    -Ver-
+                                    Ver mas..
                                 </button>
 
                                 <!-- Modal -->
@@ -280,7 +319,19 @@
                                                 </button>
                                             </div>
                                             <div class="modal-body">
-                                                <img src="img/te3.jpg" alt="">
+                                            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="Resources/bebida1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="Resources/bebida2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="Resources/bebida3.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+</div>
                                             </div>
                                             <div class="modal-footer">
                                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
