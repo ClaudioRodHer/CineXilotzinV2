@@ -299,7 +299,7 @@
                                     class="btn btn-primary"
                                     data-toggle="modal"
                                     data-target="#exampleModalCenter4">
-                                    Ver mas..
+                                    Ver mas aqui..
                                 </button>
 
                                 <!-- Modal -->
